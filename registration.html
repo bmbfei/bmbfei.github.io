@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+<h1>registration</h1>
+<h2>Welcome to my website</h2>
+<p>
+    <a href="home.html">Home</a> |
+    <a href="about.html">About Me</a> |
+    <a href="login.html">Login</a>
+</p>
+<div class="card">
+    <h4>my website</h4>
+    <p>You can find some information about games I know.</p>
+</div>
+<h2 class="fade-in">Register before you login my website</h2>
+<p class="hide-with-visibility">This paragraph is hidden but space is reserved.</p>
+<p class="hide-with-display">This paragraph is completely hidden.</p>
+<div class="fixed-nav">Register here</div>
+
+<h3>Personal Information</h3>
+<form action="submit-form.html" method="get">
+    <label for="fullname">Full Name:</label><br>
+    <input type="text" id="fullname" name="fullname" placeholder="Enter your full name"><br><br>
+
+    <label for="email">Email Address:</label><br>
+    <input type="email" id="email" name="email" placeholder="Enter your email"><br><br>
+
+    <label for="password">Password:</label><br>
+    <input type="password" id="password" name="password" placeholder="Enter a password"><br><br>
+
+    <label>Gender:</label>
+    <input type="radio" id="male" name="gender" value="male">
+    <label for="male">Male</label>
+    <input type="radio" id="female" name="gender" value="female">
+    <label for="female">Female</label>
+    <input type="radio" id="other" name="gender" value="other">
+    <label for="other">Other</label><br>
+
+    <label for="age">Select Your Age:</label><br>
+    <select id="age" name="major">
+        <option value="under 18">Under 18</option>
+        <option value="18 to 36">18 to 36</option>
+        <option value="over 36">Over 36</option>
+    </select><br><br>
+
+    <label>Likes:</label><br>
+    <input type="text" id="likes" name="likes" placeholder="Enter the games or characters you like"><br><br>
+    <input type="submit" value="Register">
+    <input type="reset" value="Clear Form">
+</form>
+
+<footer>
+    <p>&copy; 2026 Personal Website. All rights reserved.</p>
+</footer>
+</body>
+</html>
